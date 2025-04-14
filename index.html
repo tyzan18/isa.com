@@ -1,32 +1,35 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time solves it</title>
+    <meta name="description" content="A special message for Evie">
+    <title>Time Solves It - A Special Message</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Everything alright, Miss Evie?</h1>
-    <div class="opciones">
-        <button id="btnSi">YES</button>
-        <button id="btnNo">No</button>
-    </div>
-   
-    <!-- Este div mostrará el mensaje -->
-    <div id="mensaje"></div>
-
-    <div class="container">
-        <div id="gifContainer">
-            <img id="gifContainerImg" src="st,small,507x507-pad,600x600,f8f8f8.jpg" alt="Ositos Iniciales">
+    <main class="card">
+        <h1>Everything alright, Miss Evie?</h1>
+        
+        <div class="opciones">
+            <button id="btnSi" class="btn-option">YES</button>
+            <button id="btnNo" class="btn-option">NO</button>
         </div>
-    </div>
-    <div>
-        <p>
-            Att:Tyzan
-        </p>
-    </div>
+        
+        <div id="mensaje" class="mensaje-container" aria-live="polite"></div>
 
-    <script src="script.js"></script>
+        <div class="gif-container">
+            <img id="gifContainerImg" src="st,small,507x507-pad,600x600,f8f8f8.jpg" alt="Teddy bears" loading="lazy">
+        </div>
+        
+        <footer class="signature">
+            <p>Att: Tyzan</p>
+        </footer>
+    </main>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
