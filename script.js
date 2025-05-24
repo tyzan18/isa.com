@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const mensajeDiv = document.getElementById('mensaje');
     
     const messages = {
-        positive: "I'm glad you're well and remember that I will always be there to support you in whatever you want and decide! ❤️",
-        negative: "I understand that you are going through a difficult time. Don't put too much pressure on yourself, take things slowly. I'm here if you need to talk or just tune out. Everything gets better with time. 😊"
+        positive: "Me alegra que estés bien y recuerda que siempre estaré ahí para apoyarte en lo que quieras y decidas! ❤️",
+        negative: "Entiendo que estás pasando por un momento difícil. No te presiones demasiado, tómate las cosas con calma. Estoy aquí si necesitas hablar o simplemente desconectar. Todo mejora con el tiempo. 😊"
     };
     
     btnSi.addEventListener('click', function() {
